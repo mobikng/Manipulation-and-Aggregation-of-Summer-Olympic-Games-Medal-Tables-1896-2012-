@@ -5,7 +5,7 @@ All I can use is a dataset with raw data containing over 31,000 medals (__summer
 My goal is to __minimize the divergence__ between my aggregated Medal Tables and the official Medal Tables. Let´s assume that the official number of Gold Medals for the United States in the Edition 1996 is 44 and my code produces 46. This is an absolute divergence of 2. <br> <br>
 __Calculate the total absolute divergence for the Editions 1996 and 1976 (the "Score")!__ The __optimal Score is 0__! 
 
-### Fortunately, I could manage to get some useful information from Sports experts: <br>
+### Fortunately, I could to get some useful information from Sports experts: <br>
 
 Medals awarded in __Team Events__ (one medal for each member of the team) only count as __one Medal__. For example, the Basketball Team of the United States won the Gold Medal in the Edition 2012. In total __12 Basketball Athletes__ from the United States were awarded with a Gold Medal. For the official Medal Table 2012, this only counts as __one Gold Medal__ for the United States!<br> <br>
 All Events with __5 or less than 5 medals__ shall be deemed __Singles Events__. All Events with __more than 5 medals__ shall be deemed __Team Events__. It frequently happens that 2 or 3 Athletes share the Bronze medal. Therefore, in total 4 or 5 medals are awarded in these Singles Events. All of these medals count for the official Medal Table! It also happens in Team Events that two Teams share the Bronze medal. Also in this case, in total 4 medals count for the official Medal Table (1 Gold, 1 Silver, 2 Bronze).
