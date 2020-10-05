@@ -1,6 +1,6 @@
 # Manipulation and Aggregation of Summer Olympic Games, Medal Tables 1896-2012. Project Overview
 ### The Case
-It´s my first day in a Data Science advisory firm and your boss asks you to produce the __official Summer Olympic Games Medal Tables for all Editions from 1896 to 2012__. <br><br>
+It´s my first day in a Data Science advisory firm and my boss asks me to produce the __official Summer Olympic Games Medal Tables for all Editions from 1896 to 2012__. <br><br>
 All I can use is a dataset with raw data containing over 31,000 medals (__summer.csv__) and the official Medal Tables for the Editions 1996 and 1976 from Wikipedia. (__wik_1996.csv__, __wik_1976.csv__). I used the two official Medal Tables as a __reference__ to check whether my code produces the correct output! <br><br>
 My goal is to __minimize the divergence__ between my aggregated Medal Tables and the official Medal Tables. Let´s assume that the official number of Gold Medals for the United States in the Edition 1996 is 44 and my code produces 46. This is an absolute divergence of 2. <br> <br>
 __Calculate the total absolute divergence for the Editions 1996 and 1976 (the "Score")!__ The __optimal Score is 0__! 
